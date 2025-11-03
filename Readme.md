@@ -69,7 +69,7 @@ A secure, serverless authentication API built with **ASP.NET Core Web API** and 
 
 ## Architecture
 
-```mermaid
+```
 graph TD
     Client-->|HTTP/HTTPS|APIGateway
     APIGateway-->|Lambda Proxy|Lambda[Lambda (ASP.NET Core)]
@@ -244,7 +244,10 @@ MIT
 
 ---
 
-## Author
+![.NET 8](https://img.shields.io/badge/.NET-8.0-blue)
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-[Dev Patel]
-[devp9137@gmail.com OR www.linkedin.com/in/devpatel9137]
+
+**Author:** [Dev Patel](https://www.linkedin.com/in/devpatel9137)  
+📧 [devp9137@gmail.com](mailto:devp9137@gmail.com)
