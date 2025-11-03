@@ -1,0 +1,46 @@
+# ASP.NET Core build and user files
+bin/
+obj/
+out/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Lambda deployment packages
+*.zip
+*.aws-sam
+aws-lambda-tools-defaults.json
+.aws-sam/
+bin/Release/net*/
+publish/
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.jfm
+
+# Resharper / Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
